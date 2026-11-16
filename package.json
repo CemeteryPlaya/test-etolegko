@@ -1,0 +1,17 @@
+{
+  "name": "speedtest-cli",
+  "version": "1.0.0",
+  "description": "Консольная утилита: замер скорости скачивания по серии последовательных HTTP-запросов",
+  "type": "module",
+  "bin": {
+    "speedtest": "./bin/speedtest.js"
+  },
+  "scripts": {
+    "start": "node bin/speedtest.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
